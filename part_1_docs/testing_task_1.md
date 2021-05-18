@@ -14,7 +14,7 @@ Only comment on errors that would stop the tests running.
 
 ```python
 
-class CardGame: # CardGame class has no __init__ function statement or attributes
+class CardGame: 
 
 
   def check_for_ace(self, card):
@@ -33,9 +33,9 @@ class CardGame: # CardGame class has no __init__ function statement or attribute
 
 
 def cards_total(self, cards):
-  total # nothing assigned to 'total', need to assign empty list perhaps
+  total # nothing assigned to 'total', need to assign as zero to start
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total #need to use string concetenation here
   
 ```
